@@ -11,4 +11,13 @@ class MultiplicationTest {
         five.times(2);
         assertEquals(10, five.amount);
     }
+
+    @Test
+    void test2(){
+        Dollar five = new Dollar(5);
+        five.times(2);
+        assertEquals(10, product.amount);
+        five.times(3);
+        assertEquals(15, product.amount);
+    }
 }
