@@ -1,8 +1,7 @@
 package org.gihae;
 
 public class Dollar {
-    int current;
-    public int amount;
+    public int amount = 10;
 
     public Dollar(int amount) {}
 
