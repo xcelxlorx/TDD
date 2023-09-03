@@ -12,3 +12,11 @@ $5 X 2 = $10
 $5 X 2 = $10
 Dollar의 부작용
 ```
+
+## test3
+### value object pattern에서 equality 문제 해결하기
+```
+$5 X 2 = $10
+Dollar의 부작용
+equals()
+```
