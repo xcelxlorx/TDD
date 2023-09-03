@@ -20,3 +20,12 @@ $5 X 2 = $10
 Dollar의 부작용
 equals()
 ```
+
+## test4
+### Dollar 객체의 amount 필드를 private으로 만들기
+```
+$5 X 2 = $10
+Dollar의 부작용
+equals()
+amount를 private으로 만들기
+```
