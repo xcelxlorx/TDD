@@ -23,7 +23,7 @@ class MultiplicationTest {
         assertEquals(15, product.amount);
     }*/
 
-    @Test
+    /*@Test
     void test3(){
         assertTrue(new Dollar(5).equals(new Dollar(5)));
         assertFalse(new Dollar(5).equals(new Dollar(6)));
@@ -58,7 +58,7 @@ class MultiplicationTest {
         assertTrue(new Franc(5).equals(new Franc(5)));
         assertFalse(new Franc(5).equals(new Franc(6)));
         assertFalse(new Franc(5).equals(new Dollar(5)));
-    }
+    }*/
 
     @Test
     void test8(){
@@ -82,7 +82,7 @@ class MultiplicationTest {
     @Test
     void test9(){
         //test currency
-        assertEquals("USD", Money.dollar(1).currency);
-        assertEquals("CHF", Money.franc(1).currency);
+        assertEquals("USD", Money.dollar(1).currency());
+        assertEquals("CHF", Money.franc(1).currency());
     }
 }

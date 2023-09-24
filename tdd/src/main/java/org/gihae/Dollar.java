@@ -2,9 +2,8 @@ package org.gihae;
 
 public class Dollar extends Money{
 
-    public Dollar(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+    Dollar(int amount, String currency) {
+        super(amount, currency);
     }
 
     public String currency(){
