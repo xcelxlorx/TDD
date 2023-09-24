@@ -1,5 +1,6 @@
 import org.gihae.Dollar;
 import org.gihae.Franc;
+import org.gihae.Money;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -57,5 +58,12 @@ class MultiplicationTest {
         assertTrue(new Franc(5).equals(new Franc(5)));
         assertFalse(new Franc(5).equals(new Franc(6)));
         assertFalse(new Franc(5).equals(new Dollar(5)));
+    }
+
+    @Test
+    void test8(){
+        Money five = Money.dollar(5);
+        assertEquals(new Dollar(10), five.times(2));
+        assertEquals(new Dollar(15), five.times(3));
     }
 }
