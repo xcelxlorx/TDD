@@ -2,11 +2,9 @@ package org.gihae;
 
 public class Franc extends Money{
 
-    private String currency;
-
-    public Franc(int amount) {
+    public Franc(int amount, String currency) {
         this.amount = amount;
-        currency = "CHF";
+        this.currency = "CHF";
     }
 
     public String currency(){
@@ -14,6 +12,6 @@ public class Franc extends Money{
     }
 
     public Money times(int multiplier){
-        return new Franc(amount * multiplier);
+        return new Franc(amount * multiplier, null);
     }
 }
